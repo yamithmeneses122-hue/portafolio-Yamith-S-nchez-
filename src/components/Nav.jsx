@@ -4,6 +4,7 @@ export default function Nav() {
     ["Sobre mi", "#sobremi"],
     ["Proyectos", "#proyectos"],
     ["Estudios", "#estudios"],
+    ["Tienda", "#tienda"],
   ]
 
   return (
@@ -12,7 +13,7 @@ export default function Nav() {
         Porta<span className="text-[#8a8a8a]">folio Y</span>S
       </h1>
       <nav>
-        <ul className="flex list-none gap-[10px] max-[900px]:gap-[2px]">
+        <ul className="flex list-none gap-[10px] max-[900px]:flex-wrap max-[900px]:justify-center max-[900px]:gap-[2px]">
           {links.map(([label, href]) => (
             <li key={label}>
               <a
