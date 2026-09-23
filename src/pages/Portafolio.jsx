@@ -3,6 +3,7 @@ import Hero from "../components/Hero"
 import SobreMi from "../components/SobreMi"
 import Proyectos from "../components/Proyectos"
 import Estudios from "../components/Estudios"
+import Tienda from "./Tienda"
 
 export default function Portafolio() {
   return (
@@ -12,6 +13,7 @@ export default function Portafolio() {
       <SobreMi />
       <Proyectos />
       <Estudios />
+      <Tienda />
     </main>
   )
 }
